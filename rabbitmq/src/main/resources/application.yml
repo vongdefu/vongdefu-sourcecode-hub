@@ -1,0 +1,53 @@
+server:
+  port: 10101
+
+spring:
+  application:
+    name: rabbitmq
+  redis:
+    host: 192.168.10.105
+    port: 6379
+    password:
+    timeout: 5000000
+    lettuce:
+      pool:
+        # 链接池中最小的空闲链接 默认为0
+        min-idle: 0
+        # 链接池中最大的空闲连接 默认为 8
+        max-idle: 8
+        #连接池中最大数据库链接数 默认为8
+        max-active: 8
+        #连接池最大阻塞等待时间 负值表示没有限制
+        max-wait: -1ms
+
+
+# 一个消费者最多可处理的未被确认（Ack）消息数量（QoS），RabbitMQ服务端取min{prefetch, 100}作为QoS。
+#  spring.rabbitmq.listener.simple.prefetch=10
+#  # RabbitMQ监听器（Listener）的最小并发消费者数量
+#  spring.rabbitmq.listener.simple.concurrency=2
+#  # RabbitMQ监听器（Listener）的最大并发消费者数量，当消费速率足够快时，客户端会启动max-concurrency个消费者进行消费
+#  spring.rabbitmq.listener.simple.max-concurrency=5
+
+  # spring.rabbitmq.listener.simple.acknowledge-mode : 消息确认（Ack）模式。
+  # 1. none：消费者接收消息后，无论消费成功与否，服务端均认为消息已成功处理，即RabbitMQ中的autoAck模式。
+  # 2. auto：客户端在消费成功后主动回复ack（处理失败则回复nack或抛出异常），不需要客户端显式调用Channel.basicAck()。
+  # 3. manual: 手动回复Ack，需要客户端在消费成功后。
+#  •manual：手动ack，需要在业务代码结束后，显式调用Channel.basicAck()主动回复。 自己根据业务情况，判断什么时候该ack
+#  •auto：自动ack，由spring监测listener代码是否出现异常，没有异常则返回ack；抛出异常则返回nack; auto模式类似事务机制，出现异常时返回nack，消息回滚到mq；没有异常，返回ack【默认且常用】
+#  •none：关闭ack，MQ假定消费者获取消息后会成功处理，因此消息投递后立即被删除
+#
+#  消息投递是不可靠的，可能丢失
+  rabbitmq:
+    host: 192.168.10.105
+    port: 5672
+    username: admin
+    password: root1003
+    virtualHost: /
+    listener:
+      simple:
+        acknowledge-mode: manual
+#    publisher-confirm-type: correlated
+
+logging:
+  level:
+    root: debug

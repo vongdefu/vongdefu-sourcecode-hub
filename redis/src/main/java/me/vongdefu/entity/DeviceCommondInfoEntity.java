@@ -4,12 +4,8 @@ import lombok.*;
 
 import java.io.Serializable;
 
-/**
- * @author shawnwang
- * @version 1.0
- * @describe
- * @date 2023/4/11
- */
+
+
 @Data
 @ToString
 @AllArgsConstructor

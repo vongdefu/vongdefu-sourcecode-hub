@@ -1,25 +1,13 @@
 server:
-  port: 10101
+  port: 10102
+
+logging:
+  level:
+    root: debug
 
 spring:
   application:
     name: rabbitmq
-  redis:
-    host: 192.168.10.105
-    port: 6379
-    password:
-    timeout: 5000000
-    lettuce:
-      pool:
-        # 链接池中最小的空闲链接 默认为0
-        min-idle: 0
-        # 链接池中最大的空闲连接 默认为 8
-        max-idle: 8
-        #连接池中最大数据库链接数 默认为8
-        max-active: 8
-        #连接池最大阻塞等待时间 负值表示没有限制
-        max-wait: -1ms
-
 
 # 一个消费者最多可处理的未被确认（Ack）消息数量（QoS），RabbitMQ服务端取min{prefetch, 100}作为QoS。
 #  spring.rabbitmq.listener.simple.prefetch=10
@@ -48,6 +36,3 @@ spring:
         acknowledge-mode: manual
 #    publisher-confirm-type: correlated
 
-logging:
-  level:
-    root: debug

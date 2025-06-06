@@ -4,20 +4,21 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61b47500-56e8-4a3a-85c3-d48749099be7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/RedisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/entity/DeviceCommondInfoEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/entity/EquipmentEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/entity/NiotCommandEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/utils/AppWarmUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/utils/GenEquipment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/utils/RedisLimitByUseLua.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/utils/RedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="5def2914-88c2-4629-a96e-f96d00e1b376" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/me/vongdefu/RabbitMQApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/me/vongdefu/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/me/vongdefu/consumer/RabbitConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/me/vongdefu/controller/CommandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/me/vongdefu/service/CommandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/me/vongdefu/service/impl/CommandServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/RedisSpringBootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbitmq/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/vongdefu/RedisApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/vongdefu/entity/DeviceCommondInfoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/entity/DeviceCommondInfoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/vongdefu/utils/AppWarmUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/utils/AppWarmUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/vongdefu/utils/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/utils/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +46,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
-}</component>
-  <component name="ProjectId" id="2y7WTY1ncaxNEppzRpaDR0WCd6c" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2y7eUqaLlNG06A8C0pC75ptp3VH" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -60,43 +58,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/03-code/Github/vongdefu/vongdefu-sourcecode-hub/redis/src/main/java/me/vongdefu&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/03-code/Github/vongdefu/vongdefu-sourcecode-hub/redis/src/main/java/me/vongdefu",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "build.tools",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\03-code\Github\vongdefu\vongdefu-sourcecode-hub\redis\src\main\java\me\vongdefu" />
-      <recent name="D:\03-code\Github\vongdefu\vongdefu-sourcecode-hub\redis\src\main\java\me\vongdefu\utils" />
-      <recent name="D:\03-code\Github\vongdefu\vongdefu-sourcecode-hub\redis\src\main" />
+      <recent name="D:\03-code\Github\vongdefu\vongdefu-sourcecode-hub\redis\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="me.vongdefu.utils" />
       <recent name="me.vongdefu.config" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="RedisSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="redis" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="me.vongdefu.RedisApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.vongdefu.RedisSpringBootApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.vongdefu.*" />
@@ -109,7 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.RedisApplication" />
+        <item itemvalue="Spring Boot.RedisSpringBootApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -119,21 +115,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="61b47500-56e8-4a3a-85c3-d48749099be7" name="Changes" comment="" />
-      <created>1749186099633</created>
+      <changelist id="5def2914-88c2-4629-a96e-f96d00e1b376" name="Changes" comment="" />
+      <created>1749190057467</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1749186099633</updated>
-      <workItem from="1749186100652" duration="2039000" />
-      <workItem from="1749188173295" duration="767000" />
+      <updated>1749190057467</updated>
+      <workItem from="1749190058504" duration="1580000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

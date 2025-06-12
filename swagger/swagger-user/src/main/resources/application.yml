@@ -1,0 +1,17 @@
+server:
+  port: 10600
+
+spring:
+  application:
+    name: swagger-user
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.10.105:8848
+        namespace: fe8ae2e0-c2a7-4cea-8d7e-2ea097f00a3f
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

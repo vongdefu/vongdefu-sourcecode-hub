@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>me.zeanzai</groupId>
+    <artifactId>sharding-notes</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>sharding-notes</name>
+    <description>sharding-notes</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>gen-data</module>
+        <module>sharding-sql</module>
+        <module>sharding-redis</module>
+        <module>sharding-datasource</module>
+        <module>sharding-multi-ds</module>
+        <module>sharding-sphere-ds</module>
+        <module>sharding-saas</module>
+    </modules>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+
+
+</project>

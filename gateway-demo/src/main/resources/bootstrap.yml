@@ -1,0 +1,58 @@
+server:
+  port: 10003
+#  ssl:
+#    key-alias: spring
+#    enabled: true
+#    key-password:
+#    key-store: classpath:client.pfx
+#    key-store-type: PKCS12
+#    key-store-password:
+
+
+spring:
+  application:
+    name: gateway-demo
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.10.105:8848
+        namespace: fe8ae2e0-c2a7-4cea-8d7e-2ea097f00a3f
+      config:
+        server-addr: 192.168.10.105:8848
+        namespace: fe8ae2e0-c2a7-4cea-8d7e-2ea097f00a3f
+        file-extension: yaml
+        shared-configs:
+
+#          # 日志
+#          - dataId: log.yml
+#            refresh: true
+#            group: COMMON
+
+          # 路由规则
+          - dataId: routerule.yml
+            refresh: true
+            group: DEV
+
+#    sentinel:
+#      transport:
+#        dashboard: 192.168.56.10:8858
+#      scg:
+#        fallback:
+##          mode: respone
+##          response-body: '{"code": 200,"message": "请求失败，稍后重试！"}'
+##          response-status: 200
+#
+#          mode: redirect
+#          redirect: https://www.tianqingxiaozhu
+#    gateway:
+#      default-filters:
+
+management:
+  endpoints:
+    web:
+      exposure:
+        # yml文件中存在特殊字符，必须用单引号包含，否则启动报错
+        include: '*'
+
+
+

@@ -1,0 +1,77 @@
+server:
+  port: 10802
+
+spring:
+  application:
+    name: seata-tcc-storage
+  datasource:
+    url: jdbc:mysql://192.168.10.105:3306/seata_tcc_storage?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+    password: root1003
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari: # 是SpringCloud默认的连接池
+      auto-commit: true
+      connection-test-query: SELECT 1
+      connection-timeout: 30000
+      idle-timeout: 180000
+      max-lifetime: 0
+      maximum-pool-size: 30
+      minimum-idle: 10
+      pool-name: cp_script_crawl
+  jpa:
+    show-sql: true # 默认false，在日志里显示执行的sql语句
+    database: mysql
+    database-platform: mysql
+    generate-ddl: false
+    hibernate:
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl #指定jpa的自动表生成策略，驼峰自动映射为下划线格式
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.10.105:8848
+        namespace: 90eb030b-c54f-4928-8d7a-2e05019adda5
+logging:
+  level:
+    root: debug
+
+
+## 客户端seata的相关配置
+seata:
+  ## 是否开启seata，默认true
+  enabled: true
+  application-id: ${spring.application.name}
+  ## seata事务组的名称，一定要和config.tx(nacos)中配置的相同
+  tx-service-group: ${spring.application.name}-tx-group
+  ## 配置中心的配置
+  config:
+    ## 使用类型nacos
+    type: nacos
+    ## nacos作为配置中心的相关配置，需要和server在同一个注册中心下
+    nacos:
+      ## 命名空间，需要server端(registry和config)、nacos配置client端(registry和config)保持一致
+      namespace: 10fe07b3-354c-4540-aaea-85d14a1418c3
+      ## 地址
+      server-addr: 192.168.10.105:8848
+      ## 组， 需要server端(registry和config)、nacos配置client端(registry和config)保持一致
+      group: SEATA_GROUP
+      ## 用户名和密码
+      username: nacos
+      password: nacos
+  registry:
+    type: nacos
+    nacos:
+      ## 这里的名字一定要和seata服务端中的名称相同
+      application: seata-server
+      ## 需要server端(registry和config)、nacos配置client端(registry和config)保持一致
+      group: SEATA_GROUP
+      namespace: 10fe07b3-354c-4540-aaea-85d14a1418c3
+      username: nacos
+      password: nacos
+      server-addr: 192.168.10.105:8848
+

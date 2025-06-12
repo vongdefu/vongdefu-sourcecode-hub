@@ -1,0 +1,45 @@
+server:
+  port: 10200
+# 设置org.springframework包的日志级别为debug
+logging:
+  level:
+    org:
+      springframework: debug
+spring:
+  application:
+    name: nacos-as-configer
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        # nacos的服务端地址
+        server-addr: 192.168.10.105:8848
+        # 应用接入的命名空间的id，名为DEV的命名空间
+        namespace: fe8ae2e0-c2a7-4cea-8d7e-2ea097f00a3f
+        # 应用配置的文件名后缀，启动后会从nacos服务端获取 ${spring.application.name}-.yaml
+        file-extension: yml
+        # 命名分组
+        group: DEV
+
+        # 共享配置项
+        shared-configs:
+          - dataId: mygirlinfo.yml
+            refresh: true
+            group: DEV
+
+          - dataId: mybrother.yml
+            refresh: true
+            group: DEV
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        # yml文件中存在特殊字符，必须用单引号包含，否则启动报错
+        include: '*'
+
+
+

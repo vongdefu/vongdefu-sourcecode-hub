@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0f78793-aec3-4b92-9a4f-393dd93a689b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/RabbitMQApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/config/RabbitMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/consumer/RabbitConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/controller/CommandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/service/CommandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/service/impl/CommandServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redis/src/main/java/me/vongdefu/RedisSpringBootApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../redis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redis/src/main/java/me/vongdefu/RedisApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redis/src/main/java/me/vongdefu/entity/DeviceCommondInfoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redis/src/main/java/me/vongdefu/entity/DeviceCommondInfoEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redis/src/main/java/me/vongdefu/utils/AppWarmUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redis/src/main/java/me/vongdefu/utils/AppWarmUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redis/src/main/java/me/vongdefu/utils/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redis/src/main/java/me/vongdefu/utils/RedisUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../redis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/vongdefu/config/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/vongdefu/config/RabbitMQConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +34,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2y7Vk0cLTXHKXJZ6Hfx8vCKzd8G" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -68,7 +56,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/03-code/Github/vongdefu/vongdefu-sourcecode-hub/rabbitmq/src/main/java/me/vongdefu",
+    "last_opened_file_path": "D:/03-code/Github/vongdefu/vongdefu-sourcecode-hub/nacos-as-register/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -131,6 +119,9 @@
       <option name="presentableId" value="Default" />
       <updated>1749185737914</updated>
       <workItem from="1749185738875" duration="8987000" />
+      <workItem from="1749269917756" duration="857000" />
+      <workItem from="1749523825334" duration="568000" />
+      <workItem from="1749546535002" duration="1026000" />
     </task>
     <servers />
   </component>

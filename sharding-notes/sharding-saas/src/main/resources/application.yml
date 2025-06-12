@@ -1,0 +1,76 @@
+
+
+server:
+  port: 8080
+
+spring:
+  freemarker:
+    cache: false
+    template-loader-path:
+      - classpath:/templates/
+    prefix:
+    suffix: .html
+  resources:
+    static-locations:
+      - classpath:/static/
+  devtools:
+    restart:
+      enabled: true
+#  jpa:
+#    database: mysql
+#    show-sql: true
+#    generate-ddl: false
+#    hibernate:
+#      ddl-auto: none
+  jpa:
+    show-sql: true # 默认false，在日志里显示执行的sql语句
+    database: mysql
+    database-platform: mysql
+    generate-ddl: false
+#    hibernate:
+#      naming:
+#        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl #指定jpa的自动表生成策略，驼峰自动映射为下划线格式
+#      ddl-auto: none
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL5Dialect
+
+
+
+#  datasource:
+#    url: jdbc:mysql://192.168.1.150:3306/seata_tcc_storage?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    hikari: # 是SpringCloud默认的连接池
+#      auto-commit: true
+#      connection-test-query: SELECT 1
+#      connection-timeout: 30000
+#      idle-timeout: 180000
+#      max-lifetime: 0
+#      maximum-pool-size: 30
+#      minimum-idle: 10
+#      pool-name: cp_script_crawl
+
+
+una:
+  master:
+    datasource:
+#      url: jdbc:mysql://192.168.1.150:3306/mutil_tenant?useUnicode=true&characterEncoding=UTF-8&useSSL=true
+      url: jdbc:mysql://192.168.1.150:3306/mutil_tenant?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
+      username: root
+      password: root
+#      driverClassName: com.mysql.jdbc.Driver
+      driverClassName: com.mysql.cj.jdbc.Driver
+      maxPoolSize:  10
+      idleTimeout:  3000
+      minIdle:  10
+      poolName: master-database-connection-pool
+logging:
+  level:
+    root: info
+    org:
+      springframework:
+        web:  debug
+      hibernate: debug
+

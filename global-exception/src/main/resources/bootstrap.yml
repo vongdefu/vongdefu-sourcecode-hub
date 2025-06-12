@@ -1,0 +1,43 @@
+server:
+  port: 10300
+
+logging:
+  level:
+    me.zeanzai.globalexception: debug
+
+
+spring:
+  application:
+    name: global-exception
+  cloud:
+    nacos:
+      config:
+        # nacos的服务端地址
+        server-addr: 192.168.10.105:8848
+        # 应用接入的命名空间的id
+        namespace: fe8ae2e0-c2a7-4cea-8d7e-2ea097f00a3f
+        # 命名分组
+        group: DEV
+#        shared-configs:
+#          - dataId: placeholder.yml
+#            refresh: true
+#            group: DEV
+
+
+#  messages:
+#    baseFolder: i18n
+#    basename: ${spring.application.name}-message
+#    encoding: UTF-8
+#    cacheMillis: 1000
+
+
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        # yml文件中存在特殊字符，必须用单引号包含，否则启动报错
+        include: '*'
+

@@ -181,8 +181,6 @@ public class RabbitMQConfig {
                 // 在日志中，我们可以看到 服务端 返回的异常代码（312）和异常信息（NO_ROUTE）。
                 log.info("消息丢失:exchange({}),route({}),replyCode({}),replyText({}),message:{}",exchange,routingKey,replyCode,replyText,message);
                 // 如有需要可以重试
-
-
             }
         });
 

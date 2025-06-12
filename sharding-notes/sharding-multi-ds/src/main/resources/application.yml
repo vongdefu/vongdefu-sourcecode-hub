@@ -1,0 +1,37 @@
+
+
+spring:
+  application:
+    name: sharding-multi-ds
+  redis:
+    host: 192.168.1.150
+    port: 6379
+    password:
+  datasource01:
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.1.150:3307/monomer_order?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    type: com.alibaba.druid.pool.DruidDataSource
+  datasource02:
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.1.150:3307/monomer_order?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    type: com.alibaba.druid.pool.DruidDataSource
+  datasource03:
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.1.150:3309/monomer_order?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    type: com.alibaba.druid.pool.DruidDataSource
+
+
+mybatis-plus:
+  #  扫描依赖的jar包下的所有mapper.xml
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+server:
+  port: 8083

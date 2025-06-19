@@ -1,0 +1,21 @@
+server:
+  port: 9043
+
+#logging:
+#  level:
+#    org.springframework.cloud.gateway: DEBUG
+#    reactor.netty.http.client: DEBUG
+#    org.springframework.cloud.sleuth: DEBUG
+
+spring:
+  application:
+    ## 指定服务名称，在nacos中的名字
+    name: skywalking-order
+  cloud:
+    nacos:
+      ## 注册中心配置
+      discovery:
+        # nacos的服务地址，nacos-server中IP地址:端口号
+        server-addr: 192.168.10.105:8848
+
+

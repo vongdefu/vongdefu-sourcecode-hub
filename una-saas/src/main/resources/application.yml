@@ -1,0 +1,41 @@
+server:
+  port: 9003
+
+
+spring:
+  freemarker:
+    cache: false
+    template-loader-path:
+    - classpath:/templates/
+    prefix:
+    suffix: .html
+  resources:
+    static-locations:
+    - classpath:/static/
+  devtools:
+    restart:
+      enabled: true
+  jpa:
+    database: mysql
+    show-sql: true
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+una:
+  master:
+    datasource:
+      url: jdbc:mysql://192.168.10.105:3306/test_una_saas?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
+      username: root
+      password: root1003
+      driverClassName: com.mysql.cj.jdbc.Driver
+      maxPoolSize: 10
+      idleTimeout: 3000
+      minIdle: 10
+      poolName: master-database-connection-pool
+logging:
+  level:
+    root: warn
+    org:
+      springframework:
+        web: debug
+      hibernate: debug

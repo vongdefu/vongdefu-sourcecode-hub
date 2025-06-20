@@ -5,24 +5,114 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0f78793-aec3-4b92-9a4f-393dd93a689b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../sleuth/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sleuth/gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sleuth/gateway/src/main/java/me/vongdefu/SleuthGatewayApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sleuth/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sleuth/order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sleuth/order/src/main/java/me/vongdefu/SleuthOrderApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sleuth/order/src/main/java/me/vongdefu/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sleuth/order/src/main/java/me/vongdefu/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sleuth/order/src/main/java/me/vongdefu/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sleuth/order/src/main/java/me/vongdefu/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sleuth/order/src/main/java/me/vongdefu/service/feign/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sleuth/order/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sleuth/product/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sleuth/product/src/main/java/me/vongdefu/SleuthProductApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sleuth/product/src/main/java/me/vongdefu/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sleuth/product/src/main/java/me/vongdefu/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sleuth/product/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379994859-4348819d-bdd1-4cee-88a1-24ab7c84cf1f.jpg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379994878-9456faef-6ecf-414d-aec5-72bd1af8db80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379994891-ea02da0e-2671-4a72-91de-804e83b7f676.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379994916-27fef3e6-18ef-4d5d-a126-a73ce83858ad.jpg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379994916-cef69dcc-607f-4c5e-9d1a-ba455aebe620.jpg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379995920-76c23c35-c24f-45b2-ab04-4c4c2f83329e.jpg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379996052-b6394394-03d1-4fb7-bf97-574e783f2f0f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379996088-591973de-4b1f-492a-981e-99c854a61ff8.jpg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379996092-b6723c02-676b-42f3-a0b8-b65d18dc13b6.jpg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379996124-8d5ce35d-c6d6-4348-92d5-209a03324942.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379997115-9b721460-0c48-4c42-b36e-e033da124432.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379997124-c8503122-38bf-4bc1-9a78-73961743ee27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379997138-5874e27e-5bdf-4d75-95e2-1ae0f6079d04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379997150-2a0b77ca-ac61-451c-99d6-35bc01c84d46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379997175-a37615cb-1ea7-45fa-9dec-9beef0d67575.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379998343-a5675709-464e-410a-960e-f328d348cb54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379998345-740a797d-7e4a-4664-8b79-5cbd646de2ca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379998350-6932eae0-56e9-4cd2-b8df-fce79beb5ec2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379998365-745a5f4f-bb1a-4837-98e5-c835da8c4b35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379998371-cbaf118b-e495-41ec-8b80-029be86a4386.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379999220-ad5c8db1-3840-4277-9868-a89a16da6f3f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379999226-28deb8f8-ba33-4577-a7fd-a6dcc9612c8e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379999236-15bb9e82-d479-472f-9a3c-98cf758b7d47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379999249-5d30a95c-2cca-487d-894e-a2148b8ae44e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750379999275-a8058b0a-afaf-4504-9edd-c9fde1adaacc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380000317-649bb0d3-7cdf-4820-9bfb-91c662744f57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380000319-f71b6dbf-b488-48d9-99f0-dc3388f4d54f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380000326-5731acea-08b9-4911-928e-725120519df1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380000332-e580d815-5aab-49a8-8b15-163f1c6a33ab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380000366-2c78f40b-6dca-48f3-b588-e64df2a3742b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380001430-24b535ae-e600-404f-b174-d9af6a786fd5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380001436-76308859-5520-4ff5-a641-6d6cd65cfc21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380001437-49874c3f-2c58-4381-a0cb-824331db4b7d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380001437-ec3c8e5a-ba8e-48ac-b308-6e75d9de7454.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380001438-8b306ff0-74a1-4989-afa5-72c9268d4257.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380002532-114ad78d-d7e6-410c-842f-2e1c9ddc9a7c.jpg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380002543-30833355-196e-4a4e-a178-765a13955c12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380002548-1e38ab2b-4490-496a-b68c-463efb4f8c1b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380002560-bffe31e9-3465-4f52-a999-bd22ffc322d2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380002639-fe5006e5-9ba1-456d-9549-b43cd6d601f0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380003708-eb75ac1a-b696-49fa-a7bc-a6347e1e94dd.jpg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380003726-a3ea84b7-9a62-4720-95c6-9dd19c1c669a.jpg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380003730-5e020e90-ee3c-456d-9762-80a30e4a0f1d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380003749-558e5d61-6df8-463f-b7af-a91afaf5fb37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380003815-879e379b-6ce3-47fa-9905-42177e04fd62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380004870-81dda1bf-c10f-42ee-b335-1f1d2b05fe40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380005167-c4c75486-bfa7-4f4f-a767-383bb27a3c95.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380005262-24dbdb79-207d-4aea-a89a-58bacac46af2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380005307-e3317bc3-1823-46aa-8b00-1a2e147d8703.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380005308-8ec3285d-8901-4901-aeec-32b1753a1da0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380005854-fc72a623-e036-4c48-bfd1-36e1f473fa76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380005975-cb2ff5aa-eeb6-42ce-adc4-ccbeea986209.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380006337-ab7b6fcb-cd44-4c0d-8abb-92f235b75d3c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380006341-f4fd4bad-65b6-4f89-bf98-ae70dd196809.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380006358-1f4d98c0-e2b7-4b79-aa52-f027cbb19489.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380007063-52bd6b9f-cc59-4542-b8bf-5dd2138fe9a2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380007338-e886ac82-97ff-42eb-b219-462858e8b770.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380007734-4c4d43a8-8005-40eb-aff6-c0540ccd18f5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380007771-7d38bcdd-d523-46b5-b7dd-35821e60684b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380007773-57fa3fca-3868-41f9-9251-3d12c95a098e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380007858-2f352511-3985-49d0-ab01-d76dfabe33cb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380007877-9f30619c-f47c-47db-839f-c24a02b39d52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380009016-9d7327d1-9829-4136-ba8a-716d01d0559b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380009022-cd8fa4d5-05b2-448a-b024-3f4fc65f4feb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380009025-d96c5947-a041-4014-8040-ba423286e101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380009707-d21e23eb-6a1a-4467-8991-81bf6abe7750.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380009743-f7dc1e18-7ec7-45d0-9d68-270b3e24c217.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380010246-b3ab3d02-5a60-4a21-b5e9-1b5c14d66c40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380010251-e344db75-2036-4c76-ba30-582ebba52e86.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380010259-012ecec4-c3e7-4584-8025-5f9bef2c8578.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380010538-ecda480b-b343-460d-be23-7810a7cbcc9a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ基础/image/1750380010565-0728d4b8-6d9e-4a2b-af22-d9397d1536c9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380177192-52014266-e1d7-4987-9eff-f2bedd3a5049.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380177195-7f609d2e-8ada-40ad-859c-bce46de31b8c.jpg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380177196-a458e2bc-549e-4cb3-9a0f-67a0db7114d7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380177200-d7eb0ee5-2ef8-4f96-8ae3-7e5bdc940d80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380177242-234e06ef-74a8-4025-a5a6-ec71798d3fce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380177981-0c177826-1580-421f-8696-cbf3310f72ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380178015-9024e7a6-729d-4c8a-bb1e-b7fc38687aed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380178159-00316b2d-7a25-472f-b96f-4daacd775c83.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380178167-f88a1447-19e7-43d7-93ad-b4c25f910739.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380178171-70cfa83b-e371-4549-9241-6e92a439b3c1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380178710-8740d64e-60d2-4cdf-92f7-eb6807ab708f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380178716-7b07687f-4b10-439c-8a2b-fc26218a801c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380178717-03387cc9-7991-4d70-8957-77ffc1c30a44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380178720-1a564fcc-22ef-4430-b74b-b4b867fe1c87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380178749-f5be4137-df87-467d-a0a9-42c91da512d1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380179776-87e45c26-4558-4c92-b2ce-3d37ddcbf0a9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380179794-58c57089-f983-45f2-af77-9a485e3959ac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380179797-4f2f4ce4-14e0-4eaa-8a09-f4168102701b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380179805-37ed0a9e-1f79-46bc-951b-95d7b4319c58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380179826-9ba344c4-5b53-4397-a670-4a08a668830d.jpg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380180482-63f61f53-9c3c-4991-9d68-095c4fd4dc5b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380180494-a9636c16-89b8-46e8-8e33-f0ba246400ab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380180510-66e4fce4-d855-47b2-a0d9-a860c1014f07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380180523-efd54467-f0ef-453a-ac41-e6ae57e23063.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380180530-945231bd-bc66-44a1-9334-65d5d912910e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380181506-7afae27a-fbf9-48d9-ae34-db24c17e27f7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380181509-ca5bcdcf-5cac-4d07-9f1a-2e5db9a65668.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380181511-4d965e2f-73a9-46ea-8507-81a0fcab8474.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380181521-58a890f7-14ff-4acc-8646-0dd69e2fb593.jpg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380181535-799c5cd0-7b9a-4793-ba72-209d0efedf32.jpg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380182258-86509703-fbd6-407f-8ae2-dfcfbfff8b40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380182320-68fd1aab-5afd-4c6d-a2ed-46a866cf3361.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380182333-ac3aec4b-8a2a-4c3b-9830-75632b9328a0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ高级/image/1750380182507-54b387ea-ccd3-474c-888d-48f76b342eb6.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,29 +149,32 @@
   </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/03-code/Github/vongdefu/vongdefu-sourcecode-hub/nacos-as-register/pom.xml&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/03-code/Github/vongdefu/vongdefu-sourcecode-hub/nacos-as-register/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\03-code\Github\vongdefu\vongdefu-sourcecode-hub\rabbitmq\src\main\java\me\vongdefu" />
@@ -139,6 +232,7 @@
       <workItem from="1749523825334" duration="568000" />
       <workItem from="1749546535002" duration="1026000" />
       <workItem from="1750319769540" duration="723000" />
+      <workItem from="1750388784384" duration="400000" />
     </task>
     <servers />
   </component>

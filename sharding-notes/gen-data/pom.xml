@@ -13,7 +13,7 @@
     <groupId>me.zeanzai.sharding.sql</groupId>
     <artifactId>gen-data</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>sharding-sql</name>
+    <name>sharding-sql-gen-data</name>
     <description>gen-data</description>
 
     <properties>

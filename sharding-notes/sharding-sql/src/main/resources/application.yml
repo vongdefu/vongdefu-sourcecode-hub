@@ -1,22 +1,23 @@
 server:
-  port: 8080
+  port: 8081
 
 spring:
   application:
     name: sharding-sql
   datasource:
     username: root
-    password: root
-    url: jdbc:mysql://192.168.56.10:3306/monomer_order?useUnicode=true&characterEncoding=UTF-8&useSSL=true
+    password: root1003
+    url: jdbc:mysql://192.168.10.105:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=true
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 logging:
   level:
 #    root: debug
     me.zeanzai: debug
+    com.baomidou.mybatisplus: DEBUG
 mybatis-plus:
-#  configuration:
-#    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
+  configuration:
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
   #  扫描依赖的jar包下的所有mapper.xml
   mapper-locations: classpath:/mapper/**/*.xml
   global-config:

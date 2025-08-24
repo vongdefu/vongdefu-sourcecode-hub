@@ -2,7 +2,7 @@ package me.zeanzai.sharding.sql;
 
 import me.zeanzai.sharding.sql.gendata.util.InsertDataUtils;
 
-public class ShardingSqlApplication {
+public class ShardingSqlGenDataApplication {
 
 
     public static void main(String[] args) {

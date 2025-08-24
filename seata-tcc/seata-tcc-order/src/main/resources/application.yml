@@ -23,6 +23,7 @@ spring:
     database: mysql
     database-platform: mysql
     generate-ddl: false
+
     hibernate:
       naming:
         implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl #指定jpa的自动表生成策略，驼峰自动映射为下划线格式
@@ -30,6 +31,7 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
+        generate_statistics: true
 
   cloud:
     nacos:

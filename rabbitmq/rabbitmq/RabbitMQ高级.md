@@ -138,7 +138,9 @@ public class MqConfig {
 
 ### 1.3.3.定义 ConfirmCallback
 
-由于每个消息发送时的处理逻辑不一定相同，因此 ConfirmCallback 需要在每次发消息时定义。具体来说，是在调用 RabbitTemplate 中的 convertAndSend 方法时，多传递一个参数：![](RabbitMQ%E9%AB%98%E7%BA%A7/image/1750380177192-52014266-e1d7-4987-9eff-f2bedd3a5049.png)这里的 CorrelationData 中包含两个核心的东西：
+由于每个消息发送时的处理逻辑不一定相同，因此 ConfirmCallback 需要在每次发消息时定义。具体来说，是在调用 RabbitTemplate 中的 convertAndSend 方法时，多传递一个参数：![](RabbitMQ%E9%AB%98%E7%BA%A7/image/1750380177192-52014266-e1d7-4987-9eff-f2bedd3a5049.png)
+
+这里的 CorrelationData 中包含两个核心的东西：
 
 - id：消息的唯一标示，MQ 对不同的消息的回执以此做判断，避免混淆
 - SettableListenableFuture：回执结果的 Future 对象

@@ -16,5 +16,5 @@ export const nav: DefaultTheme.Config["nav"] = [
   { text: "分布式", link: "/05-分布式/README" },
   { text: "软件质量管理", link: "/06-软件质量管理/README" },
   { text: "工程设计", link: "/07-工程设计/README" },
-  { text: "项目", link: "/vongdefu-sourcecode-hub/seata/seata的安装" },
+  { text: "项目", link: "/vongdefu-sourcecode-hub/README" },
 ];

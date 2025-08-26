@@ -6,7 +6,7 @@ import markdownItTextualUml from "markdown-it-textual-uml";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/",
+  base: "/vongdefu-sourcecode-hub",
   title: "vongdefusourcehub",
   description: "cs 面试 提示",
   lang: "zh-Hans",

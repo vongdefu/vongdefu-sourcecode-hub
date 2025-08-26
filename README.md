@@ -1,27 +1,15 @@
-# vongdefu-sourcecode-hub
 
-vongdefu-sourcecode-hub 源代码仓库
+文档地址： https://vongdefu.github.io/
 
+## 仓库说明
+
+1. 所有教程的文档（主要是markdown和图片）都保存在docs目录中；仓库推送至远端之后，会监听docs目录，如果有变更，会把变更推送至vongdefu.github.io仓库，并自动完成网站的构建；
+2. 每一个模块就是一个要学习的主题，每一个主题所涉及到的资源文件，例如sql、配置文件等，则保存在每一个模块内部；
 
 ## TODO
 
-### 文档库
-
-vongdefu-doc
-1. 只需要再把navbar和sidebar同步到本地即可；
-
-
-vongdefu.github.io
-1. 只要发生变更，就执行构建过程；
+1. 配置idea中图片粘贴到markdown的路径问题，要与vitepress里面的保持一致；
+2. 添加父pom，让每一个模块都添加进来；
+3. 整理markdown文档；
 
 
-vongdefu-source-hub
-
-1. 只要监控到docs文件夹发生变更，就把这里面的文档同步到vongdefu.github.io中；
-2. 把vongdefu.github.io中的sidebar和navbar同步到本地；
-
-
-1. 根目录下创建docs文档库；并在文档库中添加文档；
-2. 使用actions在pages分支中构建网站；
-3. 要解决readme中也想要显示目录的问题；
-4. 还要解决vongdefu.github.io中引用到此仓库中的路径问题；

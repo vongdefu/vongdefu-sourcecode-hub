@@ -29,8 +29,8 @@ jobs:
         run: |
           rsync -av docs/ vongdefu.github.io/docs/
           cd vongdefu.github.io
-          git config user.name "sourcecode-hub"
+          git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add .
-          git commit -m "${{ github.event.head_commit.message }}, ${{ github.sha }}"
+          git commit -m "sourcecode-hub, ${{ github.event.head_commit.message }}, ${{ github.sha }}"
           git push origin master

@@ -1,7 +1,7 @@
 import { DefaultTheme } from "vitepress";
 
 export const sidebar: DefaultTheme.Config["sidebar"] = {
-  "/": [
+  "/vongdefu-sourcecode-hub/": [
     {
       text: "分布式事务",
       base: "/seata",

@@ -27,7 +27,7 @@ jobs:
 
       - name: 🍒 把 docs 目录下的md文档复制到 vongdefu.github.io 库，并推送到远端
         run: |
-          rsync -av --delete docs/ vongdefu.github.io/docs/
+          rsync -av docs/ vongdefu.github.io/docs/
           cd vongdefu.github.io
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
